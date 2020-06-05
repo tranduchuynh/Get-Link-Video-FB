@@ -1,0 +1,13 @@
+body {
+  height: 100vh;
+}
+
+.fb-url {
+  max-width: 800px;
+  overflow: hidden;
+  color: #eeeeee;
+}
+
+.fb-url:hover {
+  color: #3373dc;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>App Download Video FB</title>
+  </head>
+  <body class="is-family-monospace has-background-info">
+    <div class="container">
+      <h1
+        class="title is-size-3 has-text-centered has-text-link is-uppercase has-text-weight-medium"
+        style="padding-top: 40px;"
+      >
+        💙 Facebook Download Video 💙
+      </h1>
+      <div class="columns" style="margin-top: 20px;">
+        <div class="column is-8 is-offset-1">
+          <input
+            id="input-get-link"
+            class="input is-info is-normal"
+            type="text"
+            placeholder="Enter url facebook video"
+          />
+        </div>
+        <div class="column is-2">
+          <button id="btn-get-link" class="button is-link is-size-6">
+            Get Link
+          </button>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-10 is-offset-1">
+          <span class="tag is-link is-size-6">
+            Link SD:
+          </span>
+          <a id="url-sd" target="_blank" class="is-block fb-url"></a>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-10 is-offset-1">
+          <span class="tag is-link is-size-6">
+            Link HD:
+          </span>
+          <a id="url-hd" target="_blank" class="is-block fb-url"></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>

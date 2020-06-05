@@ -1,0 +1,17 @@
+{
+  "name": "download-video-fb-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --disable-gpu"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.2"
+  },
+  "dependencies": {
+    "got": "^11.2.0"
+  }
+}
